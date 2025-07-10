@@ -1,106 +1,33 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CodeLoot Inventory</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #111;
-      color: #eee;
-      margin: 0;
-      padding: 0;
-    }
-    header, footer {
-      text-align: center;
-      padding: 1rem;
-      background: #222;
-    }
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 2rem;
-      gap: 1.5rem;
-    }
-    .product {
-      background: #1b1b1b;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 1rem;
-      width: 320px;
-      text-align: center;
-    }
-    .product img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-bottom: 0.5rem;
-    }
-    a {
-      color: #00adee;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer img {
-      vertical-align: middle;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>🧰 CodeLoot Inventory</h1>
-    <p>Modular tools for indie game developers</p>
-  </header>
-  <main>
-    <div class="product">
+<main>
+  <div class="gallery">
+    <!-- Logo -->
+    <figure class="gallery-item logo">
+      <img src="images/codeloot_logo.png" alt="CodeLoot Logo">
+    </figure>
+    <!-- Projects -->
+    <figure class="gallery-item">
       <img src="images/dialogue_cover.png" alt="Dialogue System Cover">
-      <img src="images/dialogue_mockup.png" alt="Dialogue System Screenshot">
-      <h2>🧠 Dialogue System Template</h2>
-      <p>Branching narrative system with portraits, nameplates, and choices. Works with Unity + Android.</p>
-      <p><a href="https://adapluguez.gumroad.com/l/ockrmp" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/dialogue-system-template-unity-android-branching-narrative-ui-for-rpgs" target="_blank">Itch.io</a></p>
-    </div>
-
-    <div class="product">
-      <img src="images/status_effects_cover.png" alt="Status Effect System">
-      <img src="images/status_mockup.png" alt="Status Effects Screenshot">
-      <h2>🧪 Status Effect System</h2>
-      <p>Stackable turn-based effects like Poison, Burn, and Regen for Unity & Android.</p>
-      <p><a href="https://adapluguez.gumroad.com/l/wkufpc" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/status-effect-system" target="_blank">Itch.io</a></p>
-    </div>
-
-    <div class="product">
-      <img src="images/world_map_cover.png" alt="World Map Generator">
-      <img src="images/worldmap_mockup.png" alt="World Map Screenshot">
-      <h2>🌍 World Map Generator</h2>
-      <p>Generates pixel-based RPG world maps and exports JSON layout files.</p>
-      <p><a href="https://adapluguez.gumroad.com/l/mhsaw" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/world-map-generator-python-unity-android" target="_blank">Itch.io</a></p>
-    </div>
-
-    <div class="product">
-      <img src="images/quest_generator_mockup.png" alt="Quest Generator Screenshot">
-      <h2>🎲 Procedural Quest Generator</h2>
-      <p>Cross-platform quest builder for RPGs (Python, Unity, Android included).</p>
-      <p><a href="https://adapluguez.gumroad.com/l/pgdtke" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/procedural-quest-generator" target="_blank">Itch.io</a></p>
-    </div>
-
-    <div class="product">
+      <img src="images/dialogue_mockup.png" alt="Dialogue System Mockup">
+      <figcaption>Dialogue System Template</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="images/status_effects_cover.png" alt="Status Effects Cover">
+      <img src="images/status_mockup.png" alt="Status Effects Mockup">
+      <figcaption>Status Effect System</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="images/world_map_cover.png" alt="World Map Cover">
+      <img src="images/worldmap_mockup.png" alt="World Map Mockup">
+      <figcaption>World Map Generator</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="images/quest_generator_cover.png" alt="Quest Generator Cover">
+      <img src="images/quest_generator_mockup.png" alt="Quest Generator Mockup">
+      <figcaption>Procedural Quest Generator</figcaption>
+    </figure>
+    <figure class="gallery-item">
       <img src="images/rpg_assets_cover.png" alt="RPG Asset Pack Cover">
-      <h2>🎨 RPG UI Asset Pack</h2>
-      <p>Pixel art tiles, health bars, and UI components for 32x32 to 128x128 layouts.</p>
-      <p><a href="https://adapluguez.gumroad.com/l/yudhjj" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/rpg-ui-asset-pack" target="_blank">Itch.io</a></p>
-    </div>
-  </main>
-
-  <footer>
-    <hr />
-    <p><img src="images/codeloot_logo.png" alt="CodeLoot Logo" height="32" /> © 2025 CodeLoot</p>
-    <p>Created by Ada Pluguez | Contact: <a href="mailto:codelootinc@gmail.com">codelootinc@gmail.com</a></p>
-  </footer>
-</body>
-</html>
+      <figcaption>RPG UI Asset Pack</figcaption>
+    </figure>
+  </div>
+</main>
