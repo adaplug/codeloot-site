@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CodeLoot Inventory</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 1.5rem;
+    }
+    .product {
+      background: #1b1b1b;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 1rem;
+      width: 320px;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    a {
+      color: #00adee;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer img {
+      vertical-align: middle;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,52 +60,56 @@
       <img src="images/dialogue_cover.png" alt="Dialogue System Cover">
       <h2>🧠 Dialogue System Template</h2>
       <p>Branching narrative system with portraits, nameplates, and choices. Works with Unity + Android.</p>
-      <p>
-      <a href="https://adapluguez.gumroad.com/l/ockrmp" target="_blank">Gumroad</a> |
-      <a href="https://pluguezada.itch.io/dialogue-system-template-unity-android-branching-narrative-ui-for-rpgs" target="_blank">Itch.io</a>
-      </p>
-</div>
+      <p><a href="https://adapluguez.gumroad.com/l/ockrmp" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/dialogue-system-template-unity-android-branching-narrative-ui-for-rpgs" target="_blank">Itch.io</a></p>
+    </div>
 
     <div class="product">
-      <img src="images/StatusEffectsCover.png" alt="Status Effect Cover">
+      <img src="images/status_effects_cover.png" alt="Status Effect System">
       <h2>🧪 Status Effect System</h2>
       <p>Stackable turn-based effects like Poison, Burn, and Regen for Unity & Android.</p>
-      <p><a href="https://gumroad.com/your-status-link" target="_blank">Gumroad</a> | <a href="https://adapluguez.gumroad.com/l/wkufpc?_gl=1*1gx20q3*_ga*NDUwNzA2NjMxLjE3NTE0MDA2NTM.*_ga_6LJN6D94N6*czE3NTIxMDU4MjQkbzI2JGcxJHQxNzUyMTA3NzcwJGo1MiRsMCRoMA.." target="_blank">Itch.io</a></p>
+      <p><a href="https://adapluguez.gumroad.com/l/wkufpc" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/status-effect-system" target="_blank">Itch.io</a></p>
     </div>
 
     <div class="product">
       <img src="images/world_map_cover.png" alt="World Map Generator">
       <h2>🌍 World Map Generator</h2>
       <p>Generates pixel-based RPG world maps and exports JSON layout files.</p>
-      <p><a href="https://gumroad.com/your-map-link" target="_blank">Gumroad</a> | <a href="https://itch.io/your-map-link" target="_blank">Itch.io</a></p>
+      <p><a href="https://adapluguez.gumroad.com/l/mhsaw" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/world-map-generator-python-unity-android" target="_blank">Itch.io</a></p>
     </div>
 
     <div class="product">
       <img src="images/rpg_combat_cover.png" alt="RPG Combat Engine">
       <h2>⚔️ RPG Combat Engine</h2>
-      <p>Basic Android RPG combat loop template with turns, damage, and enemy logic.</p>
-      <p><a href="https://gumroad.com/your-combat-link" target="_blank">Gumroad</a> | <a href="https://itch.io/your-combat-link" target="_blank">Itch.io</a></p>
+      <p>Android RPG combat loop template with turns, damage, and enemy logic.</p>
+      <p><a href="https://adapluguez.gumroad.com/l/ockrmp" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/rpg-combat-engine-template" target="_blank">Itch.io</a></p>
     </div>
 
     <div class="product">
-      <img src="images/chatbot_cover.png" alt="Chatbot Pack">
+      <img src="images/chatbot_pack_cover.png" alt="GPT Chatbot Pack">
       <h2>💬 GPT Chatbot Conversation Pack</h2>
       <p>Prebuilt persona templates for GPT bots (therapist, tutor, game master, etc.).</p>
-      <p><a href="https://gumroad.com/your-chatbot-link" target="_blank">Gumroad</a> | <a href="https://itch.io/your-chatbot-link" target="_blank">Itch.io</a></p>
+      <p><a href="https://adapluguez.gumroad.com/l/geiws" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/gpt-chatbot-conversation-pack" target="_blank">Itch.io</a></p>
     </div>
 
     <div class="product">
-      <img src="images/quest_generator_cover.png" alt="Quest Generator">
+      <img src="images/quest_generator_cover.png" alt="Procedural Quest Generator">
       <h2>🎲 Procedural Quest Generator</h2>
-      <p>Python tool that generates random quests with theme and region filters.</p>
-      <p><a href="https://gumroad.com/your-quest-link" target="_blank">Gumroad</a> | <a href="https://itch.io/your-quest-link" target="_blank">Itch.io</a></p>
+      <p>Cross-platform quest builder for RPGs (Python, Unity, Android included).</p>
+      <p><a href="https://adapluguez.gumroad.com/l/pgdtke" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/procedural-quest-generator" target="_blank">Itch.io</a></p>
+    </div>
+
+    <div class="product">
+      <img src="images/micro_tools_cover.png" alt="Micro Tools Bundle">
+      <h2>🧰 CodeLoot Essentials</h2>
+      <p>Save/load manager, inventory UI, sound tools & JSON helpers for game devs.</p>
+      <p><a href="https://adapluguez.gumroad.com/l/mpruf" target="_blank">Gumroad</a> | <a href="https://pluguezada.itch.io/micro-tool-bundle-for-game-devs" target="_blank">Itch.io</a></p>
     </div>
   </main>
 
   <footer>
-    <hr>
-    <p><img src="images/codeloot_logo.png" alt="CodeLoot Logo" height="32"> © 2025 CodeLoot</p>
-    <p>Contact: <a href="mailto:codelootinc@gmail.com">codelootinc@gmail.com</a></p>
+    <hr />
+    <p><img src="images/codeloot_logo.png" alt="CodeLoot Logo" height="32" /> © 2025 CodeLoot</p>
+    <p>Created by Ada Pluguez | Contact: <a href="mailto:codelootinc@gmail.com">codelootinc@gmail.com</a></p>
   </footer>
 </body>
 </html>
